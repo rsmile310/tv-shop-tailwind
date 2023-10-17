@@ -69,7 +69,6 @@ nav ul li a:hover {
     z-index: 1;
     transform: rotate(50deg);
 }
-
 .top-bar h2:before {
     content: attr(data-text);
     transform-origin: bottom;

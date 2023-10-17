@@ -15,7 +15,8 @@
     object-fit: cover;
     object-position: center 25%;
 }
-.swiper-slide::before{
+
+.swiper-slide::before {
     content: '';
     position: absolute;
     left: 20%;
@@ -25,8 +26,15 @@
     background-color: rgba(0, 0, 0, 0.2);
     transform: skewX(-20deg);
 }
+
 @media (max-width: 1024px) {
-    .swiper-slide::before{
+    .swiper-slide::before {
         display: none;
+    }
+}
+
+@media (max-width: 680px) {
+    .swiper-slide>img {
+        object-position: 35%;
     }
 }

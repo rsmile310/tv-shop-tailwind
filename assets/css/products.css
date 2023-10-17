@@ -206,7 +206,7 @@
 }
 
 .pagination li a span {
-    min-width: 20px;
+    min-width: 20px; 
     display: inline-block;
 }
 
