@@ -16,7 +16,7 @@
     object-position: center 25%;
 }
 
-.swiper-slide::before {
+.hero-slider.swiper-slide::before {
     content: '';
     position: absolute;
     left: 20%;
